@@ -1,0 +1,18 @@
+# Nmap 7.99 scan initiated Tue Jul 14 14:53:07 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sT -sV -p 1-10000 -oN .\\results\\nmap_scan_results.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0028s latency).
+Not shown: 9991 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE        VERSION
+135/tcp  open     msrpc          Microsoft Windows RPC
+137/tcp  filtered netbios-ns
+445/tcp  open     microsoft-ds?
+1434/tcp open     ms-sql-s       Microsoft SQL Server 2022 16.00.1000
+2015/tcp open     http           Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+5040/tcp open     unknown
+5354/tcp open     mdnsresponder?
+7680/tcp open     pando-pub?
+8000/tcp open     http           SimpleHTTPServer 0.6 (Python 3.11.9)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul 14 14:54:30 2026 -- 1 IP address (1 host up) scanned in 83.58 seconds
