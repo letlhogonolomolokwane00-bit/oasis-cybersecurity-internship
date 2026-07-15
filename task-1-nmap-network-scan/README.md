@@ -6,13 +6,13 @@
 
 
 
-**Name:** Letlhogonolo Molokwane  
+**Name:** Letlhogonolo Molokwane
 
-**Task:** Basic Network Scanning with Nmap  
+**Task:** Basic Network Scanning with Nmap
 
-**Operating system:** Windows  
+**Operating system:** Windows
 
-**Target scanned:** 127.0.0.1  
+**Target scanned:** 127.0.0.1
 
 **Nmap version:** 7.99
 
@@ -27,6 +27,22 @@ For this task, I used Nmap to scan my own computer and check which TCP ports wer
 
 
 I only scanned "127.0.0.1". This is the localhost address of my computer, so I did not scan another person's computer, a public website or an unauthorised network.
+
+
+
+
+
+**Demonstration video**
+
+
+
+I recorded a short video showing the Nmap installation, TCP port scan, service detection and saved scan results.
+
+
+
+**Watch the Task 1 demonstration video:** https://drive.google.com/file/d/1lLmlG6RMmxxaTZrXM2Rr377SxhApImmC/view?usp=sharing
+
+
 
 
 
@@ -184,7 +200,7 @@ The final scan took about 84 seconds. Nmap scanned 10000 TCP ports. It reported 
 
 
 
-|**Port**|**State**|**Service reported by Nmap** |**What I found**|
+|**Port**|**State**|**Service reported by Nmap**|**What I found**|
 |-|-|-|-|
 |135|Open|Microsoft RPC|This is used by Windows services to communicate with each other.|
 |137|Filtered|NetBIOS Name Service|Nmap could not fully check this port because its probes appeared to be filtered.|
